@@ -2,7 +2,7 @@
 
 This is an attempt to simulate an ELT in Apache Spark to warehouse Microsoft's WideWorldImporters sample OLTP database found here: https://learn.microsoft.com/en-us/sql/samples/wide-world-importers-perform-etl?view=sql-server-ver17.  I'm using the Azure Data Studio, for the meantime, to reduce cost since I'm just practicing.  But it's best to work directly from the IDE.
 
-In Azure, you could easily automate copying of data from Azure SQL Database to Apache Spark SQL Pool using this link: https://learn.microsoft.com/en-us/azure/synapse-analytics/quickstart-copy-activity-load-sql-pool.  To simulate this, I've loaded a sample OLTP database first to an SQLITE database which is supported by the Apache Spark.  You may use the already already pre-loaded attached database (wwi.db).  
+In Azure, you could easily automate copying of data from Azure SQL Database to Apache Spark SQL Pool using this link: https://learn.microsoft.com/en-us/azure/synapse-analytics/quickstart-copy-activity-load-sql-pool.  To simulate this, I've loaded a sample OLTP database first to an SQLITE database which is supported by the Apache Spark.  You need to load it using this notebook:   
 
 For relevant sites, please see the following:
      - https://spark.apache.org/docs/latest/api/python/getting_started/index.html
