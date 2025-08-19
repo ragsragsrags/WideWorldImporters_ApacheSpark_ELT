@@ -8,7 +8,7 @@ For relevant sites on Apache Spark, please see the following:
      - https://spark.apache.org/docs/latest/api/python/getting_started/index.html
      - https://spark.apache.org/docs/latest/api/python/tutorial/python_packaging.html
 
-It's just one notebook to do the warehousing: ProcessWideWorldImportersDW.ipynb.  To simulate the date, update the new_cutoff date to increase in date say from 2013-01-01 then to 2013-01-02 or you could jump directly to 2015-01-01.  In the IDE, you could probably pass parameter on the database if you schedule it to update everyday.  
+It's just one notebook to do the warehousing: ProcessWideWorldImportersDW.ipynb.  To simulate the date, update the new_cutoff date to increase in date say from 2013-01-01 then to 2013-01-02 or you could jump directly to 2015-01-01.  Be sure to set new_cutoff date first at 2013-01-01 then you can increase it.  In the IDE, you could probably pass parameter on the database if you schedule it to update everyday.  
 
 <img width="887" height="437" alt="image" src="https://github.com/user-attachments/assets/d526246d-c7d1-4d77-97ab-ffdcc3cfd476" />
 
