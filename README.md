@@ -14,4 +14,4 @@ It's just one notebook to do the warehousing: ProcessWideWorldImportersDW.ipynb.
 
 Also, be sure to create the wwi_wh.db file in the same location where the notebooks are.
 
-For validation, you may use wwi_count.sql in wwi.db and wwi_wh_count.sql in wwi_wh.db to check if the same count are in wwi.db and wwi_wh.db.  Just update the date in wwi_count.sql to the same date in the new_cutoff date in the notebook.
+For validation, you may use wwi_count.sql in wwi.db and wwi_wh_count.sql in wwi_wh.db to check if the same count are in wwi.db and wwi_wh.db.  Just update the date in wwi_count.sql to the same date in the new_cutoff date in the notebook.  I'm using DBeaver as IDE for sqlite.
